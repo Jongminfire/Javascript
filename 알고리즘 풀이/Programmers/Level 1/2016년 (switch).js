@@ -4,7 +4,7 @@ function solution(a, b) {
     
     for(let i=0;i<a;i++)
         {
-            answer+=day[i];
+           answer+=day[i];
         }
     
     switch(answer%7){
