@@ -52,7 +52,6 @@ function solution(dartResult) {
         }
         
         point.push(Number(num));
-        
     }
     
     return point.reduce((acc,cur)=>{
