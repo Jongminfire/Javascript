@@ -1,5 +1,5 @@
 function solution(n) {
-    return String(n).split('').reverse().map((v)=>Number(v));
+   return String(n).split('').reverse().map((v)=>Number(v));
 }
 
 // https://programmers.co.kr/learn/courses/30/lessons/12932
