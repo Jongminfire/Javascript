@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Questrial',sans-serif;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+}
+
+.screen {
+    cursor: pointer;
+    width: 60%;
+    background-color: #000 !important;
+    /* !important를 붙이면 중복되는 요소에서 나중에 설정한 값이 아닌 해당값으로 적용됨 */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.controls {
+    background-color: #333;
+    color: #fff;
+    width:60%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.controls .btn {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.controls .fa-play {
+    color: #28a745;
+}
+
+.controls .fa-stop {
+    color: #dc3545;
+}
+
+.controls .fa-pause {
+    color: #fff;
+}
+
+.control .timestamp {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+@media (max-width: 800px) {
+    .screen, 
+    .controls {
+        width:90%;
+    }
+}
