@@ -4,6 +4,7 @@
     --modal-duration: 1s;
     --primary-color: #30336b;
     --secondary-color: #be2edd;
+    overflow: hidden;
 }
 
 * {
@@ -179,6 +180,11 @@ button:focus {
 .modal-form .form-input {
     padding: 8px;
     width: 100%;
+}
+
+.modal-form .submit-btn {
+    float : right;
+    margin-bottom: 1rem;
 }
 
 .close-btn {
